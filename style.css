@@ -449,6 +449,7 @@ main .reverse-section {
   font-size: 1rem;
   cursor: pointer;
   transition: background-color 0.3s ease;
+  margin-left: auto;
 }
 
 .contact-form button:hover {
