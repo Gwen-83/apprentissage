@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Contact - Gwénaël Drouet</title>
+  <link rel="stylesheet" href="style.css" />
+  <script src="script.js"></script>
+</head>
+<body>
+  <header>
+    <nav>
+      <div class="logo">Gwénaël Drouet</div>
+      <ul class="nav-links">
+        <li><a href="index.html">Accueil</a></li>
+        <li><a href="propos.html">À propos</a></li>
+        <li><a href="competences.html">Compétences</a></li>
+        <li><a href="experience.html">Expériences</a></li>
+        <li><a href="contact.html">Contact</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <main class="contact-section">
+    <h1 class="section-title center">📬 Me contacter</h1>
+
+    <div class="contact-info">
+      <p>📧 <a href="mailto:gwenael.drouet@example.com">gwenael.drouet@example.com</a></p>
+      <p>💼 <a href="https://www.linkedin.com/in/gwenael-drouet-3b6828255/" target="_blank">Mon LinkedIn</a></p>
+      <p>🐙 <a href="https://github.com/NordicThingy" target="_blank">Mon GitHub</a></p>
+    </div>
+
+    <!-- Formulaire de contact Netlify -->
+    <form name="contact" method="POST" data-netlify="true" class="contact-form">
+      <input type="hidden" name="form-name" value="contact" />
+      <label for="name">Nom :</label>
+      <input type="text" id="name" name="name" required />
+
+      <label for="email">Email :</label>
+      <input type="email" id="email" name="email" required />
+
+      <label for="message">Message :</label>
+      <textarea id="message" name="message" rows="5" required></textarea>
+
+      <button type="submit">Envoyer</button>
+    </form>
+  </main>
+
+    <div class="social-links">
+    <a href="https://github.com/NordicThingy" target="_blank">🐙 GitHub</a>
+    <a href="https://www.linkedin.com/in/gwenael-drouet-3b6828255/" target="_blank">💼 LinkedIn</a>
+    <a href="mailto:gwenael.drouet@example.com">✉️ Email</a>
+  </div>
+
+  <footer>
+    <p>© 2025 Gwénaël Drouet</p>
+  </footer>
+
+  <button id="back-to-top" title="Retour en haut">
+    <svg width="20" height="20" viewBox="0 0 24 24">
+      <path d="M12 8l-6 6 1.41 1.41L12 10.83l4.59 4.58L18 14z" fill="currentColor"/>
+    </svg>
+  </button>
+</body>
+</html>
