@@ -470,7 +470,7 @@ main .reverse-section {
   main .reverse-section {
     flex-direction: column;
     text-align: center;
-    gap: 1rem;
+    gap: 0rem;
   }
 
   .experience-text, .experience-photo {
