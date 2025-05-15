@@ -471,6 +471,7 @@ main .reverse-section {
     flex-direction: column;
     text-align: center;
     gap: 0rem;
+    padding: 0rem 0rem;
   }
 
   .experience-text, .experience-photo {
