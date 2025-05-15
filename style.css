@@ -39,11 +39,14 @@ nav {
   display: flex;
   justify-content: space-between;
   align-items: center;
+  flex-wrap: wrap;
+  padding: 1rem;
 }
 
 .nav-links {
   list-style: none;
   display: flex;
+  flex-wrap: wrap;
   gap: 1.5rem;
 }
 
