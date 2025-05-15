@@ -27,9 +27,3 @@ document.addEventListener("DOMContentLoaded", () => {
     });
   });
 });
-
-document.addEventListener("DOMContentLoaded", () => {
-  if (window.innerWidth < 768) {
-    document.getElementById("mobile-warning").style.display = "block";
-  }
-});
