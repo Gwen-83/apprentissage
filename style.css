@@ -292,6 +292,36 @@ footer {
   font-style: italic;
 }
 
+@media (max-width: 768px) {
+  .about-section {
+    flex-direction: column;
+    padding: 2rem 1rem;
+  }
+
+  .about-photo {
+    margin: 1rem 0; /* Réduit toutes les marges */
+    max-width: 90%;
+  }
+
+  .about-text {
+    padding: 0 1rem;
+  }
+
+  .about-text h1,
+  .about-text h2 {
+    font-size: 1.6rem;
+    text-align: center;
+  }
+
+  .about-text p,
+  .about-text ul {
+    font-size: 1rem;
+  }
+
+  .highlight-box {
+    margin: 1.5rem 0;
+  }
+}
 
 /* COMPETENCES & PROJETS */
 
