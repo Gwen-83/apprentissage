@@ -12,6 +12,11 @@ body {
   line-height: 1.6;
 }
 
+html, body {
+  max-width: 100%;
+  overflow-x: hidden;
+}
+
 /* HEADER */
 header {
   background-color: #ffffff;
@@ -84,6 +89,9 @@ nav {
   align-items: center;
   justify-content: center;
   padding: 4rem 2rem;
+  width: 100%;
+  max-width: 100%;
+  overflow-x: hidden;
 }
 
 .intro-text {
@@ -138,12 +146,18 @@ nav {
   flex: 1 1 300px;
   max-width: 400px;
   margin-top: 2rem;
-  margin-left: 5rem;
   text-align: center;
+}
+
+@media (min-width: 768px) {
+  .intro-photo {
+    margin-left: 5rem;
+  }
 }
 
 .intro-photo img {
   max-width: 100%;
+  height: auto;
   border-radius: 10px;
   box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
 }
