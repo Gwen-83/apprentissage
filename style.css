@@ -477,6 +477,14 @@ main .reverse-section {
   .experience-text, .experience-photo {
     max-width: 100%;
   }
+  
+  .experience-photo {
+    margin-bottom: 0.5rem; /* ou 0 */
+  }
+
+  .experience-text p:last-child {
+    margin-bottom: 0; /* évite les grands vides en bas */
+  }
 }
 
 /* === CONTACT SECTION === */
