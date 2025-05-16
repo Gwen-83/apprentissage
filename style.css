@@ -156,7 +156,7 @@ main.intro-section {
 
     .btn-secondary {
       background-color: rgba(0,119,204,0.5);
-      border: none;
+      border: #005fa3;
       color: #ffffff;
     }
 
