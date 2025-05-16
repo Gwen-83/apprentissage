@@ -155,9 +155,9 @@ main.intro-section {
     }
 
     .btn-secondary {
-      background-color: rgba(0,119,204,0.5);
+      background-color: rgba(0,119,204,0.8);
       border: 2px solid #0077cc;
-      color: black;
+      color: #ffffff;
     }
 
     .btn-secondary:hover {
