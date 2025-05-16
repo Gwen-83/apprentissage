@@ -187,6 +187,7 @@ main.intro-section {
       .intro-photo img{
         height:533;
         width:400;
+        max-width: 100%;
       }
     }
 /* FOOTER */
