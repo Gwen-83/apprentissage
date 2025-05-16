@@ -156,8 +156,8 @@ main.intro-section {
 
     .btn-secondary {
       background-color: rgba(0,119,204,0.5);
-      border: #005fa3;
-      color: #ffffff;
+      border: 2px solid #0077cc;
+      color: black;
     }
 
     .btn-secondary:hover {
