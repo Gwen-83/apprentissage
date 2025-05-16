@@ -173,9 +173,10 @@ main.intro-section {
 
     .intro-photo img {
       max-width: 100%;
-      height: auto;
       border-radius: 10px;
       box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+      height:533;
+      width:400;
     }
 
     /* Décalage gauche uniquement sur grand écran */
@@ -184,8 +185,8 @@ main.intro-section {
         margin-left: 5rem;
       }
       .intro-photo img{
-        height:400;
-        width:533;
+        height:533;
+        width:400;
       }
     }
 /* FOOTER */
