@@ -155,13 +155,13 @@ main.intro-section {
     }
 
     .btn-secondary {
-      background-color: transparent;
-      border: 2px solid #004a99;
-      color: #004a99;
+      background-color: #0077cc;
+      border: none;
+      color: #ffffff;
     }
 
     .btn-secondary:hover {
-      background-color: #e6f2ff;
+      background-color: #005fa3;
     }
 
     .intro-photo {
