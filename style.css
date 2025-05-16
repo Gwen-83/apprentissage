@@ -183,6 +183,10 @@ main.intro-section {
       .intro-photo {
         margin-left: 5rem;
       }
+      .intro-photo img{
+        height:400;
+        width:533;
+      }
     }
 /* FOOTER */
 footer {
