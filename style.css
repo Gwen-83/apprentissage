@@ -141,6 +141,7 @@ nav {
     object-fit: contain;
   }
 }
+
 /* INTRO SECTION */
 main.intro-section {
       display: flex;
@@ -225,7 +226,7 @@ main.intro-section {
         max-width: 100%;
       }
     }
-/* FOOTER */
+
 footer {
   text-align: center;
   padding: 1.5rem;
@@ -235,13 +236,11 @@ footer {
   color: #666;
 }
 
-/* ANIMATION */
 @keyframes fadeIn {
   from { opacity: 0; transform: translateY(20px); }
   to { opacity: 1; transform: translateY(0); }
 }
 
-/* BOUTON RETOUR EN HAUT */
 #back-to-top {
   position: fixed;
   bottom: 30px;
@@ -253,7 +252,7 @@ footer {
   color: white;
   border: none;
   cursor: pointer;
-  display: none; /* Caché par défaut */
+  display: none;
   align-items: center;
   justify-content: center;
   box-shadow: 0 2px 5px rgba(0, 0, 0, 0.3);
@@ -269,7 +268,6 @@ footer {
   display: flex;
 }
 
-/* TIMELINE */
 .timeline {
   display: flex;
   justify-content: center;
@@ -284,7 +282,6 @@ footer {
   text-align: center;
 }
 
-/* SOCIAL LINKS */
 .social-links {
   text-align: center;
   margin: 2rem 0;
@@ -347,7 +344,6 @@ footer {
   flex-direction: row-reverse;
 }
 
-/* Highlight box for anecdote */
 .highlight-box {
   background-color: #d0e9ff;
   padding: 1rem;
@@ -364,7 +360,7 @@ footer {
   }
 
   .about-photo {
-    margin: 1rem 0; /* Réduit toutes les marges */
+    margin: 1rem 0;
     max-width: 90%;
   }
 
@@ -387,8 +383,6 @@ footer {
     margin: 1.5rem 0;
   }
 }
-
-/* COMPETENCES & PROJETS */
 
 .skills-header {
   padding: 4rem 2rem 2rem;
@@ -453,6 +447,13 @@ footer {
   text-align: center;
 }
 
+@media (max-width: 768px) {
+  .skills-languages {
+    margin: 2rem 1rem;
+    padding: 1.5rem;
+  }
+}
+
 .languages-box ul {
   list-style: none;
   padding-left: 0;
@@ -477,8 +478,6 @@ footer {
   text-align: center;
 }
 
-
-/* === EXPERIENCES SECTION (adapté au HTML actuel) === */
 .section-title, .title-asso{
   text-align: center;
   margin-top: 3rem;
@@ -544,15 +543,14 @@ main .reverse-section {
   }
   
   .experience-photo {
-    margin-bottom: 0.5rem; /* ou 0 */
+    margin-bottom: 0.5rem;
   }
 
   .experience-text p:last-child {
-    margin-bottom: 0; /* évite les grands vides en bas */
+    margin-bottom: 0;
   }
 }
 
-/* === CONTACT SECTION === */
 .contact-section {
   padding: 4rem 2rem;
   max-width: 800px;
@@ -613,7 +611,6 @@ main .reverse-section {
   background-color: #005fa3;
 }
 
-/* FORMATIONS */
 .formations-section {
   padding: 4rem 2rem;
   background-color: #f9f9f9;
