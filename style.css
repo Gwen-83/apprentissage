@@ -131,6 +131,7 @@ nav {
     display: flex;
     align-items: center;
     gap: 0.7rem; /* espace entre le logo et le texte */
+    font-weight: bold;
     font-size: 0.9rem;
   }
 
