@@ -444,7 +444,7 @@ footer {
 
 .skills-languages {
   background-color: #fefefe;
-  padding: 2rem;
+  padding: 2rem auto;
   max-width: 800px;
   margin: 2rem;
   border: 2px solid #d6eaf8;
