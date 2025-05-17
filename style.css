@@ -71,18 +71,17 @@ nav {
 .logo {
   display: flex;
   align-items: center;
-  gap: 0.8rem; /* espace entre le logo et le texte */
+  gap: 0.8rem;
   font-weight: bold;
   font-size: 1.1rem;
 }
 
 .logo-img {
-  height: 27px; /* taille du logo adaptée */
+  height: 27px;
   width: auto;
   object-fit: contain;
 }
 
-/* Responsive : menu burger */
 @media (max-width: 768px) {
   nav {
     flex-direction: column;
@@ -90,11 +89,11 @@ nav {
   }
 
   .nav-links {
-    position: absolute; /* Clé pour être au-dessus */
-    top: 100%; /* Juste sous le header/nav */
+    position: absolute;
+    top: 100%;
     left: 0;
     right: 0;
-    z-index: 999; /* S'assurer qu'il soit au-dessus du contenu */
+    z-index: 999;
     display: none;
     flex-direction: column;
     gap: 1rem;
@@ -111,7 +110,7 @@ nav {
     box-shadow: none;
     background-color: #f4f4f4;
     border-bottom: 1px solid #e0e0e0;
-    box-shadow: 0 4px 6px rgba(0, 0, 0, 1);
+    box-shadow: 0 10px 6px rgba(0, 0, 0, 0.8);
   }
   
   .burger-menu {
