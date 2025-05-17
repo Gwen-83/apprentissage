@@ -124,8 +124,8 @@ nav {
   .logo {
     display: flex;
     align-items: center;
-    gap: 0.8rem; /* espace entre le logo et le texte */
-    font-size: 1rem;
+    gap: 0.7rem; /* espace entre le logo et le texte */
+    font-size: 0.9rem;
   }
 
   .logo-img {
