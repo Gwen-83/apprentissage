@@ -67,6 +67,20 @@ nav {
   border-radius: 5px;
 }
 
+.logo {
+  display: flex;
+  align-items: center;
+  gap: 0.8rem; /* espace entre le logo et le texte */
+  font-weight: bold;
+  font-size: 1.1rem;
+}
+
+.logo-img {
+  height: 27px; /* taille du logo adaptée */
+  width: auto;
+  object-fit: contain;
+}
+
 /* Responsive : menu burger */
 @media (max-width: 768px) {
   nav {
