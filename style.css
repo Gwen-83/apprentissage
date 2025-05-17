@@ -26,6 +26,10 @@ header {
   z-index: 1000;
 }
 
+header.menuopen {
+  border-bottom: 1px solid #ccc;
+}
+
 /* Par défaut sur grand écran */
 nav {
   display: flex;
