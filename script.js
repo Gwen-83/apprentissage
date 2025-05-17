@@ -32,3 +32,10 @@ const navLinks = document.querySelector('.nav-links');
 burgerMenu.addEventListener('click', () => {
   navLinks.classList.toggle('active');
 });
+
+const header = document.querySelector("header");
+
+burgerMenu.addEventListener("click", () => {
+    navLinks.classList.toggle("active");
+    header.classList.toggle("menu-open");
+  });
