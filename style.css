@@ -120,6 +120,19 @@ nav {
   .nav-links a:hover {
     color: #007bff;
   }
+
+  .logo {
+    display: flex;
+    align-items: center;
+    gap: 0.8rem; /* espace entre le logo et le texte */
+    font-size: 1rem;
+  }
+
+  .logo-img {
+    height: 20px; /* taille du logo adaptée */
+    width: auto;
+    object-fit: contain;
+  }
 }
 /* INTRO SECTION */
 main.intro-section {
