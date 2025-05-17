@@ -72,7 +72,6 @@ nav {
   display: flex;
   align-items: center;
   gap: 0.8rem; /* espace entre le logo et le texte */
-  font-weight: bold;
   font-size: 1.1rem;
 }
 
