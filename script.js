@@ -1,5 +1,3 @@
-// Petite animation JS optionnelle (future évolution possible)
-// Exemple : fade-in on scroll, bouton retour en haut, etc.
 document.addEventListener("DOMContentLoaded", () => {
   console.log("Page d'accueil chargée !");
 });
